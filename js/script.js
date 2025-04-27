@@ -104,7 +104,6 @@ function Stop(){
 }
 
 function Buttons(){
-    
     if(comecou === true){
         buttonParar.style.cursor = 'pointer'
         buttonComecar.style.cursor = 'no-drop'
