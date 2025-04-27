@@ -1,5 +1,5 @@
 let loop;
-let tempoRestante = 5;
+let tempoRestante = 1500;
 let comecou = false;
 let tipo = 2;
 let timeoutId;
