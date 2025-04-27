@@ -1,0 +1,84 @@
+@media screen and (max-width: 1024px){
+    main{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 695px){
+    main{
+        width: 400px;
+    }
+    section button{
+        width: 150px;
+    }
+    #bnt-1{
+        font-size: 15px;
+    }
+    #bnt-2{
+        font-size: 15px;
+    }
+    .work #timer{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 494px){
+    main{
+        width: 350px;
+    }
+    #img-1{
+        right: 8px;
+    }
+    #img-2{
+        right: 60px;
+        bottom: 5%;
+    }
+}
+@media screen and (max-width: 374px){
+    body{
+        height: 90vh;
+    }
+    
+    main{
+        height: 400px;
+    }
+    .butts{
+        height: 50px;
+    }
+    
+    .butts button{
+        padding: 10px;
+        font-size: 15px;
+    }
+    #img-1{
+        display: none;
+    }
+    #img-2{
+        display: none;
+    }
+    #navegacao{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 354px){
+    header{
+        padding: 0;
+    }
+    header .title-img img{
+        margin-top: 2px;
+    }
+    h1{
+        padding: 5px;
+        font-size: 25px;
+    }
+    body{
+        width: 311px;
+        height: 600px;
+        border: 1px solid red;
+    }
+    main{
+        width: 300px;
+    }
+    section button{
+        width: 120px;
+        padding: 10px;
+    }
+}
