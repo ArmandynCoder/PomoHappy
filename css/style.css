@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    transition: 0.5s;
 }
 
 /* Carregamento do site  */
 #load{
     display: flex;
     /* border: red 1px solid; */
-    height: 100vh;
+    max-height: 100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -49,6 +51,7 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 header{
     display: flex;
@@ -165,26 +168,133 @@ section button{
     background-color: #0c0c37;
     color: white;
 }
-#img-1{
-    position: fixed;
-    /* border: solid 1px green; */
-    right: 2px;
-    bottom: 5%;
-    width: 50px;
+
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 16.813rem;
+    z-index: 1;
+    /* box-shadow: 5px 0 5px gray; */
+    background-color: #fff;
+    left: -12%;
 }
-#img-2{
-    position: fixed;
-    /* border: solid 1px red; */
-    right: 2px;
-    bottom: 12%;
-    width: 50px;
+
+.navbar .head {
+    display: flex;
+    width: 100%;
+    height: 7.813rem;
 }
-#navegacao a{
-    position: fixed;
-    left: 20px;
-    color:#0c0c37;
+
+.navbar h3 {
+    color: #0c0c37;
+    margin-top: 2.813rem;
+    width: 12.688rem;
+    height: 2.063rem;
+    text-align: center;
     font-family: "Sigmar", serif;
     font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-open{
+    left: 0;
+    transition: 0.5s;
+}
+.navbar-close{
+    left: -13%;
+    transition: 0.5s;
+}
+
+.navbar button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1.875rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.navbar .itens-navbar {
+    margin-top: 0.625rem;
+    width: 100%;
+    height: 15.625rem;
+}
+
+.navbar .itens-navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+}
+
+.navbar .itens-navbar #paleta-padrao  li {
+    align-self: center;
+    align-content: center;
+    height: 3.125rem;
+    color: #0c0c37;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+    border: 0;
+}
+.navbar .itens-navbar ul li img {
+    margin-left: 1.438rem;
+
+}
+.navbar .itens-navbar ul li span {
+    margin-left: 1.25rem;
+    width: 13.188rem;
+}
+
+.navbar .itens-navbar #paleta-1 li{
+    align-self: center;
+    align-content: center;
+    height: 3.125rem;
+    color: #bf2a52 ;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar .itens-navbar #paleta-2 li{
+    align-self: center;
+    align-content: center;
+    height: 3.125rem;
+    color: #944131;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar .itens-navbar #paleta-3 li{
+    align-self: center;
+    align-content: center;
+    height: 3.125rem;
+    color: #a693c0;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar .itens-navbar .paleta {
+    display:  none;
+}
+
+.navbar .itens-navbar .paleta-ativa {
+    display: block;
+}
+
+.navbar .itens-navbar .paleta-oculta {
+    display: none;
 }

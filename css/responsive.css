@@ -1,9 +1,18 @@
 @media screen and (max-width: 1024px){
     main{
-        height: 500px;
+        height: 100%;
     }
+    .navbar #button-navbar {
+        position: relative;
+    }
+    .navbar-close{
+        left: -20%;
+        transition: 0.5s;
+    }
+    
+
 }
-@media screen and (max-width: 695px){
+@media screen and (max-width: 769px){
     main{
         width: 400px;
     }
@@ -19,6 +28,19 @@
     .work #timer{
         font-size: 80px;
     }
+    .navbar #button-navbar {
+        width: 80%;
+        position: relative;
+        top: 0;
+        left: 20px;
+    }
+    .navbar-close{
+        left: -30%;
+        transition: 0.5s;
+    }
+    .navbar .itens-navbar ul li{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 494px){
     main{
@@ -32,13 +54,17 @@
         bottom: 5%;
     }
 }
-@media screen and (max-width: 374px){
+@media screen and (max-width: 426px){
     body{
         height: 90vh;
     }
-    
+    body h1 {
+        font-size: 25px;
+    }
     main{
+        width: 300px;
         height: 400px;
+        justify-self: end;
     }
     .butts{
         height: 50px;
@@ -48,16 +74,65 @@
         padding: 10px;
         font-size: 15px;
     }
-    #img-1{
-        display: none;
+    section button {
+        width: 120px;
+        text-align: left;
     }
-    #img-2{
-        display: none;
+    .navbar #button-navbar {
+        width: 60%;
+        position: relative;
+        top: 0;
+        left: 20px;
     }
-    #navegacao{
-        text-align: center;
+    .navbar-close{
+        left: -50%;
+        transition: 0.5s;
+    }
+    .navbar .itens-navbar ul li{
+        font-size: 15px;
     }
 }
+
+@media screen and (max-width: 376px){
+    body{
+        height: 90vh;
+    }
+    body h1 {
+        font-size: 25px;
+    }
+    main{
+        width: 300px;
+        height: 400px;
+        justify-self: end;
+    }
+    .butts{
+        height: 50px;
+    }
+    
+    .butts button{
+        padding: 10px;
+        font-size: 15px;
+    }
+    section button {
+        width: 120px;
+        text-align: center;
+    }
+    .navbar #button-navbar {
+        width: 60%;
+        position: relative;
+        top: 0;
+        left: 20px;
+    }
+    .navbar-close{
+        left: -62%;
+        transition: 0.5s;
+    }
+    .navbar .itens-navbar ul li{
+        font-size: 15px;
+    }
+}
+
+/*mobile*/
 @media screen and (max-width: 354px){
     header{
         padding: 0;
@@ -70,15 +145,68 @@
         font-size: 25px;
     }
     body{
-        width: 311px;
+        width: 300px;
         height: 600px;
-        border: 1px solid red;
+        justify-self: end;
     }
     main{
         width: 300px;
+        
     }
     section button{
         width: 120px;
         padding: 10px;
+    }
+    .navbar #button-navbar {
+        width: 60%;
+        position: relative;
+        top: 0;
+        left: 20px;
+    }
+    .navbar-close{
+        left: -70%;
+        transition: 0.5s;
+    }
+    .navbar .itens-navbar ul li{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    header{
+        padding: 0;
+    }
+    header .title-img img{
+        margin-top: 2px;
+    }
+    h1{
+        padding: 5px;
+        font-size: 25px;
+    }
+    body{
+        width: 300px;
+        height: 600px;
+        justify-self: end;
+        
+    }
+    main{
+        width: 250px;
+    }
+    section button{
+        width: 100px;
+        padding: 10px;
+    }
+    .navbar #button-navbar {
+        width: 60%;
+        position: relative;
+        top: 0;
+        left: 20px;
+    }
+    .navbar-close{
+        left: -74%;
+        transition: 0.5s;
+    }
+    .navbar .itens-navbar ul li{
+        font-size: 15px;
     }
 }
