@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     timer.style.color = "#f3af30";
 
                     titleNavbar.style.color = "#bf2a52";
-                    buttonNavbar.src = "/assets/img/Menu/theme-1.svg";
+                    buttonNavbar.src = "./assets/img/Menu/theme-1.svg";
                     bntPomodoro.style.color = "#bf2a52";
                     bntPomodoro.style.borderColor = "#bf2a52";
 
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     timer.style.color = "#00291b";
 
                     titleNavbar.style.color = "#944131";
-                    buttonNavbar.src = "/assets/img/Menu/theme-2.svg";
+                    buttonNavbar.src = "./assets/img/Menu/theme-2.svg";
                     bntPomodoro.style.color = "#944131";
                     bntPomodoro.style.borderColor = "#944131";
 
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     timer.style.color = "#a693c0";
 
                     titleNavbar.style.color = "#a693c0";
-                    buttonNavbar.src = "/assets/img/Menu/theme-3.svg";
+                    buttonNavbar.src = "./assets/img/Menu/theme-3.svg";
                     bntPomodoro.style.color = "#f2a03d";
                     bntPomodoro.style.borderColor = "#f2a03d";
 
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     timer.style.color = "#0c0c37";
 
                     titleNavbar.style.color = "#0c0c37";
-                    buttonNavbar.src = "/assets/img/Menu/theme-blue.svg";
+                    buttonNavbar.src = "./assets/img/Menu/theme-blue.svg";
                     bntPomodoro.style.color = "#fc4040";
                     bntPomodoro.style.borderColor = "#fc4040";
 
