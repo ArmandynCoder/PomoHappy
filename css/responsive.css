@@ -44,7 +44,11 @@
 }
 @media screen and (max-width: 494px){
     body {
+        width: 90%;
+        height: 90vh;
+        align-self: self-end;
         justify-self: end;
+        /* border: 1px solid red; */
     }
     main{
         width: 350px;
@@ -60,6 +64,7 @@
 @media screen and (max-width: 426px){
     body{
         height: 90vh;
+        width: 90%;
         justify-self: end;
     }
     body h1 {
@@ -68,7 +73,7 @@
     main{
         width: 300px;
         height: 400px;
-        justify-self: end;
+        justify-self: center;
     }
     .butts{
         height: 50px;
@@ -81,6 +86,9 @@
     section button {
         width: 120px;
         text-align: left;
+    }
+    .navbar {
+        height: 90vh;
     }
     .navbar #button-navbar {
         width: 60%;
@@ -100,6 +108,7 @@
 @media screen and (max-width: 376px){
     body{
         height: 90vh;
+        width: 90%;
     }
     body h1 {
         font-size: 25px;
@@ -150,10 +159,10 @@
         font-size: 25px;
     }
     body{
-        width: 300px;
+        width: 90%;
         height: 600px;
         justify-self: end;
-        align-self: self-end;
+        align-self: center;
     }
     main{
         width: 270px;
@@ -190,7 +199,7 @@
         font-size: 25px;
     }
     body{
-        width: 300px;
+        width: 90%;
         height: 600px;
         justify-self: end;
         
