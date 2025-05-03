@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     bntParar.style.color = "#697452";
                     bntParar.style.borderColor = "#697452"
 
-                    social1.style.fill = "#697452";
+                    // social1.style.fill = "#697452";
                     
                 }
                 if(paletaId == 'paleta-2'){

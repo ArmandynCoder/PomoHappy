@@ -10,11 +10,11 @@
 /* Carregamento do site  */
 #load{
     display: flex;
-    /* border: red 1px solid; */
-    max-height: 100vh;
+    height: 100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
+    align-self: center;
 }
 .spinner{
     margin-right: 8px;
@@ -199,12 +199,12 @@ section button{
     font-size: 20px;
 }
 
-.navbar-open{
-    left: 0;
-    transition: 0.5s;
-}
 .navbar-close{
     left: -13%;
+    transition: 0.5s;
+}
+.navbar-open{
+    left: 0;
     transition: 0.5s;
 }
 
